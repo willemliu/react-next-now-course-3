@@ -1,6 +1,6 @@
 # React, NextJS and Now: course 3
 
-(?hrs)
+(3hrs)
 
 This course is aimed at experienced developers who have completed:
 
