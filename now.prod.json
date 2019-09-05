@@ -1,0 +1,17 @@
+{
+    "name": "course-3",
+    "version": 2,
+    "alias": ["course-3.willemliu.now.sh"],
+    "build": {
+        "env": {
+            "SECRET": "@course-3-secret",
+            "PUBLIC_SECRET": "@course-3-public-secret"
+        }
+    },
+    "routes": [
+        {
+            "src": "/(?<section>.+)/(?<id>\\d+)",
+            "dest": "/index?section=$section&id=$id"
+        }
+    ]
+}
